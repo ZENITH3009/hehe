@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  background-color: #0d0d0d;
+  font-family: 'Segoe UI', sans-serif;
+  overflow: hidden;
+}
+
+.scene {
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(circle, #1a1a1a, #000);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#dance-scene {
+  width: 300px;
+  height: 300px;
+  filter: drop-shadow(0 0 10px #ff69b4);
+}
+
+.final-message {
+  position: absolute;
+  bottom: 10%;
+  font-size: 2em;
+  color: white;
+  text-shadow: 0 0 10px #ff69b4;
+  opacity: 0;
+}
